@@ -1,5 +1,2 @@
 #!/bin/bash
-#Getting my current working directory
- C_dir="$(pwd)"
-#Print directory
- echo "$C_dir"
+ echo "$(pwd)"
