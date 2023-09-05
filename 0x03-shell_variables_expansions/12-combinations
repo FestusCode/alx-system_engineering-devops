@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {a..z}{a..z} | tr -d ' ' | tr 'o' '\n' | grep -v 'oo'
+echo {a..z}{a..z} | grep -Eo '([a-z]){2}'| grep -v 'oo'
