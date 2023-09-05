@@ -1,0 +1,2 @@
+#!/bin/bash
+perl -pe '$_=<> if $.%2'
